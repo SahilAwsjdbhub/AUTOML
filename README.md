@@ -1,11 +1,20 @@
 # 💣 Streamlit Automated Machine Learning Application
 
 
-## 🔥 Description 🔥
+# Automation of Machine Learning Pipelines
 
-* This project is designed to apply small datasets to preprocessing, modeling, comparing models, and saving model parts faster.
+## Project Description
 
-* In this project, python programming language, pycaret, pandas profiling and os used. Developed on streamlit library as web application. It is built on streamlit cloud, a cloud-based service provider.
+This project automates the entire machine learning pipeline, reducing the need for manual intervention in model building, training, and deployment. It streamlines the processes of data preprocessing, model selection, hyperparameter tuning, and model deployment, making it easier and faster to develop and deploy machine learning models.
+
+## Key Features
+
+- **Data Preprocessing Automation:** Automated handling of missing data, feature scaling, and dataset splitting.
+- **Model Selection:** Automatic comparison of various machine learning models to select the best one.
+- **Hyperparameter Optimization:** Automatic tuning using techniques like Grid Search and Random Search.
+- **Model Training & Evaluation:** Efficient training and evaluation using cross-validation or holdout sets.
+- **Deployment:** Exports models for deployment and provides an easy-to-use API for production use.
+- **Logging and Monitoring:** Real-time tracking of model performance throughout the workflow.
 
 ## ❗ Warnings ❗
 
@@ -28,3 +37,7 @@ pip install - r requirements.txt
 streamlit run app.py
 ```
 
+## Contributors
+
+- **[Sahil Awasarkar](https://github.com/SahilAwsjdbhub/)**
+- **[Yash Jagtap](https://github.com/yashgithubcom)**
